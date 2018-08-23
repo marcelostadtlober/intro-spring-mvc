@@ -9,3 +9,5 @@
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:49:47 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2463 http-bio-9090-exec-7 9
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:49:56 -0300] "GET /intro-spring-mvc/usuario/cadastro HTTP/1.1" 200 1170 http-bio-9090-exec-8 5
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:49:57 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2442 http-bio-9090-exec-9 3
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:17:01:08 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2536 http-bio-9090-exec-1 1247
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:17:01:12 -0300] "GET /intro-spring-mvc/usuario/update/1535054462200 HTTP/1.1" 404 949 http-bio-9090-exec-3 5
