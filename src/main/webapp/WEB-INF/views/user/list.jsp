@@ -15,7 +15,8 @@
 		<hr>
 		<div>
 
-			<a class="btn btn-default" href="#">Novo Usuário</a>
+			<spring:url value="/usuario/cadastro" var="cadastro"/>
+			<a class="btn btn-default" href="${cadastro }">Novo Usuário</a>
 		</div>
 		<hr>
 
@@ -49,7 +50,7 @@
 		</div>
 		<hr>
 		<footer class="footer">
-			<p>&copy; 2017 DevMedia</p>
+			<p>&copy; 2018 DevMedia</p>
 		</footer>
 	</div>
 </body>

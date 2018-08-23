@@ -1,3 +1,11 @@
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:19:56 -0300] "GET /intro-spring-mvc HTTP/1.1" 302 - http-bio-9090-exec-1 0
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:19:56 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 302 - http-bio-9090-exec-2 44
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:19:57 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2168 http-bio-9090-exec-3 761
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:49:30 -0300] "GET /intro-spring-mvc HTTP/1.1" 302 - http-bio-9090-exec-2 0
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:49:30 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 302 - http-bio-9090-exec-3 65
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:49:32 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2250 http-bio-9090-exec-4 1355
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:49:38 -0300] "GET /intro-spring-mvc/usuario/cadastro;jsessionid=485414357B73317725546BDE59ECCB67 HTTP/1.1" 200 1170 http-bio-9090-exec-5 247
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:49:47 -0300] "POST /intro-spring-mvc/usuario/save HTTP/1.1" 302 - http-bio-9090-exec-6 14
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:49:47 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2463 http-bio-9090-exec-7 9
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:49:56 -0300] "GET /intro-spring-mvc/usuario/cadastro HTTP/1.1" 200 1170 http-bio-9090-exec-8 5
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:49:57 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2442 http-bio-9090-exec-9 3
