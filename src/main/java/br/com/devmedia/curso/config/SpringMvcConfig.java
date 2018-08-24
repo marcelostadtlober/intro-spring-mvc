@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.format.FormatterRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
@@ -22,6 +23,12 @@ import br.com.devmedia.curso.web.conversor.TipoSexoConverter;
 @Configuration	// Informa ao Spring que esta é uma Classe de configuração
 public class SpringMvcConfig extends WebMvcConfigurerAdapter {
 	
+	@Override
+	public void addResourceHandlers(ResourceHandlerRegistry registry) {
+		registry.addResourceHandler("/static/**")
+			.addResourceLocations("/WEB-INF/resources/bootstrap/");
+	}
+
 	/*
 	 * Informa ao Spring como resolver as páginas da aplicação
 	 */
