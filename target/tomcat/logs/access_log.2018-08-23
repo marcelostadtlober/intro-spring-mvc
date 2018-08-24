@@ -11,3 +11,14 @@
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:16:49:57 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2442 http-bio-9090-exec-9 3
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:17:01:08 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2536 http-bio-9090-exec-1 1247
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:17:01:12 -0300] "GET /intro-spring-mvc/usuario/update/1535054462200 HTTP/1.1" 404 949 http-bio-9090-exec-3 5
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:17:02:33 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2536 http-bio-9090-exec-1 155
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:17:02:36 -0300] "GET /intro-spring-mvc/usuario/update/1535054548988 HTTP/1.1" 200 1258 http-bio-9090-exec-2 1053
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:17:02:45 -0300] "POST /intro-spring-mvc/usuario/update HTTP/1.1" 302 - http-bio-9090-exec-3 23
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:17:02:45 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2569 http-bio-9090-exec-4 8
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:17:02:56 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2545 http-bio-9090-exec-5 5
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:21:26:09 -0300] "GET /intro-spring-mvc HTTP/1.1" 302 - http-bio-9090-exec-2 0
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:21:26:10 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 302 - http-bio-9090-exec-3 43
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:21:26:10 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2866 http-bio-9090-exec-4 852
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:21:26:15 -0300] "GET /intro-spring-mvc/usuario/delete/1535070351729 HTTP/1.1" 302 - http-bio-9090-exec-5 22
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:21:26:15 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2542 http-bio-9090-exec-6 20
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:21:26:21 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2517 http-bio-9090-exec-7 4
