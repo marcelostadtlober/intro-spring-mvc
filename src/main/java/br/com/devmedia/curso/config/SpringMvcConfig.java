@@ -2,8 +2,12 @@ package br.com.devmedia.curso.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.format.FormatterRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
+
+import br.com.devmedia.curso.web.conversor.TipoSexoConverter;
 
 /**
  * 
@@ -14,7 +18,7 @@ import org.springframework.web.servlet.view.JstlView;
  */
 
 @Configuration	// Informa ao Spring que esta é uma Classe de configuração
-public class SpringMvcConfig {
+public class SpringMvcConfig extends WebMvcConfigurerAdapter {
 	
 	/*
 	 * Informa ao Spring como resolver as páginas da aplicação
@@ -27,6 +31,11 @@ public class SpringMvcConfig {
 		resolver.setViewClass(JstlView.class);
 		
 		return resolver;
+	}
+
+	@Override
+	public void addFormatters(FormatterRegistry registry) {
+		registry.addConverter(new TipoSexoConverter());
 	}
 
 }
