@@ -64,3 +64,8 @@
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:22:30:47 -0300] "POST /intro-spring-mvc/usuario/save HTTP/1.1" 200 1963 http-bio-9090-exec-9 6
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:22:31:02 -0300] "POST /intro-spring-mvc/usuario/save HTTP/1.1" 302 - http-bio-9090-exec-9 12
 0:0:0:0:0:0:0:1 - - [23/Aug/2018:22:31:02 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 3793 http-bio-9090-exec-3 10
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:22:39:22 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 3350 http-bio-9090-exec-1 499
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:22:39:23 -0300] "GET /intro-spring-mvc/usuario/cadastro HTTP/1.1" 200 1877 http-bio-9090-exec-3 89
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:22:39:25 -0300] "POST /intro-spring-mvc/usuario/save HTTP/1.1" 200 2224 http-bio-9090-exec-4 208
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:22:40:38 -0300] "POST /intro-spring-mvc/usuario/save HTTP/1.1" 200 2240 http-bio-9090-exec-1 466
+0:0:0:0:0:0:0:1 - - [23/Aug/2018:22:40:41 -0300] "POST /intro-spring-mvc/usuario/save HTTP/1.1" 200 2240 http-bio-9090-exec-3 11
